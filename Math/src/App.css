@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* Define your theme variables */
+@theme {
+  --color-black: rgb(17, 17, 17);
+  --color-white: rgb(223, 223, 223);
+  --color-blue: rgb(74, 92, 211);
+  --color-light-black: rgb(35, 35, 35);
+  --font-poppins: "Poppins", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+@layer utilities {
+  .underline-hover {
+    @apply relative text-white font-medium cursor-pointer after:content-[''] after:block after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-500 hover:after:w-full;
+  }
+
+  .custom_grid {
+    @apply bg-black w-screen h-[calc(100vh-60px)] text-sm text-white overflow-x-hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4;
+  }
+
+  .custom_grid_1 {
+    @apply bg-black w-screen h-[calc(100vh-60px)] text-sm text-white overflow-x-hidden grid grid-cols-1 sm:grid-cols-2 cursor-pointer
+  }
+
+  .box {
+    @apply flex items-center cursor-pointer justify-center border border-gray-800 hover:bg-gray-900 p-4 text-center hover:scale-102 hover:shadow-lg transition-all duration-300 m-2 rounded-2xl
+  }
+
+  .option {
+    @apply border w-[380px] rounded-2xl p-2 text-center hover:bg-blue hover:text-white cursor-pointer;
+  }
+
+  .true {
+    @apply text-2xl text-green-400 font-bold;
+  }
+
+  .false {
+    @apply text-2xl text-red-400 font-bold;
+  }
+
+  .zoom-in-out-element {
+    animation: zoom-in-zoom-out .5s ease infinite;
+  }
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    scale: 100%;
+  }
+
+  50% {
+    scale: 150%;
+  }
+
+  100% {
+    scale: 100%;
+  }
+}
