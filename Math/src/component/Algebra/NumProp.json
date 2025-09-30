@@ -98,5 +98,309 @@
     "question": "Which number is neither prime nor composite?",
     "options": ["0", "1", "2", "4"],
     "answer": "1"
+  },
+
+  {
+    "question": "What is the square of 6?",
+    "options": ["12", "18", "36", "30"],
+    "answer": "36"
+  },
+  {
+    "question": "What is the cube of 3?",
+    "options": ["6", "9", "27", "18"],
+    "answer": "27"
+  },
+  {
+    "question": "Which of the following is a perfect square?",
+    "options": ["50", "64", "45", "70"],
+    "answer": "64"
+  },
+  {
+    "question": "Which of the following is a perfect cube?",
+    "options": ["16", "27", "30", "20"],
+    "answer": "27"
+  },
+  {
+    "question": "What is √49?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "7"
+  },
+  {
+    "question": "What is √121?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "11"
+  },
+  {
+    "question": "What is the LCM of 6 and 8?",
+    "options": ["12", "24", "36", "48"],
+    "answer": "24"
+  },
+  {
+    "question": "What is the HCF of 12 and 18?",
+    "options": ["2", "3", "6", "9"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the LCM of 9 and 15?",
+    "options": ["30", "45", "60", "75"],
+    "answer": "45"
+  },
+  {
+    "question": "What is the HCF of 8 and 28?",
+    "options": ["2", "4", "6", "8"],
+    "answer": "4"
+  },
+  {
+    "question": "The reciprocal of 2/3 is:",
+    "options": ["3/2", "2/3", "-3/2", "1/3"],
+    "answer": "3/2"
+  },
+  {
+    "question": "The additive inverse of 12 is:",
+    "options": ["-12", "12", "0", "1"],
+    "answer": "-12"
+  },
+  {
+    "question": "Which of the following is divisible by 9?",
+    "options": ["234", "342", "333", "252"],
+    "answer": "252"
+  },
+  {
+    "question": "Which of the following is divisible by 11?",
+    "options": ["242", "132", "143", "154"],
+    "answer": "242"
+  },
+  {
+    "question": "The value of 0! is:",
+    "options": ["0", "1", "Undefined", "-1"],
+    "answer": "1"
+  },
+  {
+    "question": "What is 7 × 8?",
+    "options": ["54", "56", "64", "48"],
+    "answer": "56"
+  },
+  {
+    "question": "What is 9 × 9?",
+    "options": ["18", "81", "99", "72"],
+    "answer": "81"
+  },
+  {
+    "question": "Which of the following is a prime number?",
+    "options": ["91", "97", "87", "77"],
+    "answer": "97"
+  },
+  {
+    "question": "Which of the following is a factor of 84?",
+    "options": ["11", "12", "13", "19"],
+    "answer": "12"
+  },
+  {
+    "question": "Which of the following is a multiple of 15?",
+    "options": ["35", "55", "75", "95"],
+    "answer": "75"
+  },
+
+  {
+    "question": "What is 12 squared?",
+    "options": ["124", "144", "132", "122"],
+    "answer": "144"
+  },
+  {
+    "question": "What is the cube root of 64?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "What is the square root of 225?",
+    "options": ["14", "15", "16", "17"],
+    "answer": "15"
+  },
+  {
+    "question": "What is 10 factorial (10!)?",
+    "options": ["3628800", "40320", "720", "1000"],
+    "answer": "3628800"
+  },
+  {
+    "question": "What is the HCF of 20 and 50?",
+    "options": ["10", "20", "30", "40"],
+    "answer": "10"
+  },
+  {
+    "question": "What is the LCM of 12 and 15?",
+    "options": ["30", "45", "60", "75"],
+    "answer": "60"
+  },
+  {
+    "question": "Which is a prime factor of 91?",
+    "options": ["7", "11", "13", "17"],
+    "answer": "13"
+  },
+  {
+    "question": "Which is not divisible by 2?",
+    "options": ["18", "24", "37", "50"],
+    "answer": "37"
+  },
+  {
+    "question": "The product of two negative numbers is:",
+    "options": ["Negative", "Positive", "Zero", "Undefined"],
+    "answer": "Positive"
+  },
+  {
+    "question": "The product of a positive and negative number is:",
+    "options": ["Positive", "Negative", "Zero", "Undefined"],
+    "answer": "Negative"
+  },
+  {
+    "question": "Which property does a + 0 = a represent?",
+    "options": ["Identity", "Inverse", "Commutative", "Associative"],
+    "answer": "Identity"
+  },
+  {
+    "question": "Which property does a × 1 = a represent?",
+    "options": ["Identity", "Inverse", "Commutative", "Distributive"],
+    "answer": "Identity"
+  },
+  {
+    "question": "Which property does a + b = b + a represent?",
+    "options": ["Associative", "Commutative", "Identity", "Inverse"],
+    "answer": "Commutative"
+  },
+  {
+    "question": "Which property does (a + b) + c = a + (b + c) represent?",
+    "options": ["Associative", "Commutative", "Distributive", "Identity"],
+    "answer": "Associative"
+  },
+  {
+    "question": "The reciprocal of -4 is:",
+    "options": ["4", "-1/4", "1/4", "-4"],
+    "answer": "-1/4"
+  },
+  {
+    "question": "Which of these is divisible by 3?",
+    "options": ["22", "27", "41", "52"],
+    "answer": "27"
+  },
+  {
+    "question": "Which of these is divisible by 5?",
+    "options": ["23", "41", "60", "74"],
+    "answer": "60"
+  },
+  {
+    "question": "Which of these is a prime number?",
+    "options": ["21", "23", "25", "27"],
+    "answer": "23"
+  },
+  {
+    "question": "What is 8 × 7?",
+    "options": ["54", "56", "64", "72"],
+    "answer": "56"
+  },
+  {
+    "question": "What is 15 × 12?",
+    "options": ["170", "160", "180", "200"],
+    "answer": "180"
+  },
+  {
+    "question": "What is the square of 6?",
+    "options": ["12", "18", "36", "30"],
+    "answer": "36"
+  },
+  {
+    "question": "What is the cube of 3?",
+    "options": ["6", "9", "27", "18"],
+    "answer": "27"
+  },
+  {
+    "question": "Which of the following is a perfect square?",
+    "options": ["50", "64", "45", "70"],
+    "answer": "64"
+  },
+  {
+    "question": "Which of the following is a perfect cube?",
+    "options": ["16", "27", "30", "20"],
+    "answer": "27"
+  },
+  {
+    "question": "What is √49?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "7"
+  },
+  {
+    "question": "What is √121?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "11"
+  },
+  {
+    "question": "What is the LCM of 6 and 8?",
+    "options": ["12", "24", "36", "48"],
+    "answer": "24"
+  },
+  {
+    "question": "What is the HCF of 12 and 18?",
+    "options": ["2", "3", "6", "9"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the LCM of 9 and 15?",
+    "options": ["30", "45", "60", "75"],
+    "answer": "45"
+  },
+  {
+    "question": "What is the HCF of 8 and 28?",
+    "options": ["2", "4", "6", "8"],
+    "answer": "4"
+  },
+  {
+    "question": "The reciprocal of 2/3 is:",
+    "options": ["3/2", "2/3", "-3/2", "1/3"],
+    "answer": "3/2"
+  },
+  {
+    "question": "The additive inverse of 12 is:",
+    "options": ["-12", "12", "0", "1"],
+    "answer": "-12"
+  },
+  {
+    "question": "Which of the following is divisible by 9?",
+    "options": ["234", "342", "333", "252"],
+    "answer": "252"
+  },
+  {
+    "question": "Which of the following is divisible by 11?",
+    "options": ["242", "132", "143", "154"],
+    "answer": "242"
+  },
+  {
+    "question": "The value of 0! is:",
+    "options": ["0", "1", "Undefined", "-1"],
+    "answer": "1"
+  },
+  {
+    "question": "What is 7 × 8?",
+    "options": ["54", "56", "64", "48"],
+    "answer": "56"
+  },
+  {
+    "question": "What is 9 × 9?",
+    "options": ["18", "81", "99", "72"],
+    "answer": "81"
+  },
+  {
+    "question": "Which of the following is a prime number?",
+    "options": ["91", "97", "87", "77"],
+    "answer": "97"
+  },
+  {
+    "question": "Which of the following is a factor of 84?",
+    "options": ["11", "12", "13", "19"],
+    "answer": "12"
+  },
+  {
+    "question": "Which of the following is a multiple of 15?",
+    "options": ["35", "55", "75", "95"],
+    "answer": "75"
   }
+
+
 ]
