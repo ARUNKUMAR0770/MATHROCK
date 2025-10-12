@@ -55,7 +55,7 @@ const ElementaryAlgebra = () => {
   return (
     <>
       {showProblems ? (
-        <div className="custom_grid">
+        <div className="box_grid">
           {topics.map((item, index) => (
             <div
               key={index}
@@ -67,7 +67,7 @@ const ElementaryAlgebra = () => {
           ))}
         </div>
       ) : (
-        <div className="w-screen h-[calc(100vh-60px)] bg-white flex flex-col items-center justify-start p-4 gap-4">
+        <div className="w-screen h-screen bg-white flex flex-col items-center justify-start pt-[70px] gap-4">
           {selectedTopic === "Numbers & Properties" && (
             <>
                <div className="bg-white w-screen h-[100vh] font-poppins text-xl text-black flex flex-col gap-6 items-center justify-center">

@@ -91,7 +91,7 @@ const BasicArithmetic = () => {
     return (
         <>
             {showQuiz ? (
-                <div className="custom_grid_1 p-4">
+                <div className="pt-[65px] bg-black w-full min-h-screen text-white grid grid-cols-1 sm:grid-cols-2 gap-4 p-6 ">
                     {operation.map((item, index) => (
                         <div
                             key={index}
@@ -103,7 +103,7 @@ const BasicArithmetic = () => {
                     ))}
                 </div>
             ) : (
-                <div className="bg-white w-screen h-[calc(100vh-60px)] font-poppins text-xl text-black flex flex-col gap-4 items-center justify-center">
+                <div className="bg-white w-screen h-screen font-poppins text-xl text-black flex flex-col gap-4 items-center justify-center">
                     <div className="text-3xl font-bold">{operationType}</div>
                     <p className="text-2xl">
                         {Number1} {operator} {Number2}

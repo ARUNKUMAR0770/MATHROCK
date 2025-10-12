@@ -6,6 +6,7 @@ import Problem from './pages/Problem'
 import BasicArithmetic from './component/BasicArithmetic/BasicArithmetic';
 import Algebra from './component/Algebra/Algebra';
 import ElementaryAlgebra from './component/Algebra/ElementaryAlgebra';
+import Login from './pages/Login';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path='/concept' element={<Concept/>}/>
         <Route path='/problem' element={<Problem/>}/>
+        <Route path='/login' element={<Login/>}/>
         <Route path='/basic-arithmetic' element={<BasicArithmetic/>}/>
         <Route path='/algebra' element={<Algebra/>}/>
         <Route path='/elementary-algebra' element={<ElementaryAlgebra/>}/>

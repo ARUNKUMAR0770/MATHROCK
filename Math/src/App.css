@@ -20,16 +20,16 @@
     @apply relative text-white font-medium cursor-pointer after:content-[''] after:block after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-500 hover:after:w-full;
   }
 
-  .custom_grid {
-    @apply bg-black w-screen h-[calc(100vh-60px)] text-sm text-white overflow-x-hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4;
-  }
-
-  .custom_grid_1 {
-    @apply bg-black w-screen h-[calc(100vh-60px)] text-sm text-white overflow-x-hidden grid grid-cols-1 sm:grid-cols-2 cursor-pointer
+  .btn{
+    @apply border border-white py-[5px] px-[18px] rounded-[20px] font-bold bg-black hover:bg-white hover:text-black cursor-pointer transition duration-300 ease-in-out
   }
 
   .box {
-    @apply flex items-center cursor-pointer justify-center border border-gray-800 hover:bg-gray-900 p-4 text-center hover:scale-102 hover:shadow-lg transition-all duration-300 m-2 rounded-2xl
+    @apply flex items-center cursor-pointer justify-center border border-gray-800 hover:bg-gray-900 p-4 text-center hover:scale-102 hover:shadow-lg transition-all duration-300 m-2 rounded-2xl;
+  }
+
+  .box_grid{
+    @apply pt-[65px] bg-black w-full min-h-screen text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-6;
   }
 
   .option {
@@ -62,3 +62,34 @@
     scale: 100%;
   }
 }
+/* Apply to whole website */
+html, body {
+  scrollbar-width: thin;          /* For Firefox */
+  scrollbar-color: #888 #f0f0f0;  /* thumb color, track color for Firefox */
+}
+
+/* Webkit Browsers: Chrome, Edge, Safari */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 6px;   /* thinner */
+  height: 6px;  /* horizontal scrollbar */
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;  /* optional padding effect */
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+

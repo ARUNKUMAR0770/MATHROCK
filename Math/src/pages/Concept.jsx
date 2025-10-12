@@ -2,7 +2,7 @@ import React from 'react'
 
 const Concept = () => {
   return (
-    <div>Concept</div>
+    <div className='pt-[60px]'>Concept</div>
   )
 }
 
