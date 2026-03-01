@@ -2,4 +2,4 @@ This is the MATH_QUIZ based application, This application is partially developed
 
 link to QUIZ application-->
 
-https://arunkumar0770.github.io/MATH_ROCK/
+https://arunkumar0770.github.io/MATHROCK/
